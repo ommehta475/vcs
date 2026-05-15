@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Capture Studio - Premium Photography & Videography Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Cinzel:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><img src="visual-capture-studio logo blank.png" alt="Visual Capture Studio" class="logo-img"></div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Visual Capture Studio</h1>
+            <p class="hero-subtitle">Premium Photography & Videography Services</p>
+            <p class="hero-description">We capture weddings, birthdays, music videos, portraits, cinematic reels, and unforgettable memories with creativity and professional quality.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">Book Now</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('gallery')">View Portfolio</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Our Studio</h2>
+            <p class="about-text">
+                Visual Capture Studio provides professional photography and videography services with cinematic editing and creative storytelling. We specialize in weddings, events, portraits, reels, and drone coverage.
+            </p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Professional Team</h3>
+                    <p>Experienced photographers and editors with cinematic creativity.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Fast Delivery</h3>
+                    <p>Quick editing and fast project delivery.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Affordable Pricing</h3>
+                    <p>Premium quality services at affordable prices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Our Services & Pricing</h2>
+            <div class="pricing-grid">
+                <!-- Wedding Photography -->
+                <div class="pricing-card">
+                    <h3>Wedding Photography</h3>
+                    <p class="price">NPR 25,000</p>
+                    <ul class="features-list">
+                        <li>Full Day Coverage</li>
+                        <li>HD Edited Photos</li>
+                        <li>Cinematic Highlights</li>
+                    </ul>
+                </div>
+
+                <!-- Pre-Wedding Shoot -->
+                <div class="pricing-card">
+                    <h3>Pre-Wedding Shoot</h3>
+                    <p class="price">NPR 15,000</p>
+                    <ul class="features-list">
+                        <li>Outdoor Shoot</li>
+                        <li>Creative Cinematic Reels</li>
+                        <li>Professional Editing</li>
+                    </ul>
+                </div>
+
+                <!-- Birthday Event Shoot -->
+                <div class="pricing-card">
+                    <h3>Birthday Event Shoot</h3>
+                    <p class="price">NPR 10,000</p>
+                    <ul class="features-list">
+                        <li>Event Coverage</li>
+                        <li>Edited Images</li>
+                        <li>Short Highlight Video</li>
+                    </ul>
+                </div>
+
+                <!-- Music Video Shoot -->
+                <div class="pricing-card">
+                    <h3>Music Video Shoot</h3>
+                    <p class="price">NPR 18,000</p>
+                    <ul class="features-list">
+                        <li>Cinematic Video Shoot</li>
+                        <li>Color Grading</li>
+                        <li>Professional Editing</li>
+                    </ul>
+                </div>
+
+                <!-- Drone Shoot -->
+                <div class="pricing-card">
+                    <h3>Drone Shoot</h3>
+                    <p class="price">NPR 7,000</p>
+                    <ul class="features-list">
+                        <li>Aerial Coverage</li>
+                        <li>HD Drone Shots</li>
+                        <li>Event Cinematics</li>
+                    </ul>
+                </div>
+
+                <!-- Wedding Template -->
+                <div class="pricing-card">
+                    <h3>wedding template </h3>
+                    <p class="price">NPR 200</p>
+                    <ul class="features-list">
+                        <li>Instant share</li>
+                        <li>Basic Retouch</li>
+                        <li>Multiple Copies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Wedding Photos</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Studio Portraits</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Event Photography</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Drone Shots</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Cinematic Reels</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>Event Coverage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visual Capture Studio</h3>
+                    <div class="contact-details">
+                        <p><strong>Phone:</strong> <a href="tel:+977-9701924192">+977-9701924192</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:ommehta192@gmail.com">ommehta192@gmail.com</a></p>
+                        <p><strong>Address:</strong> Shreepur, Sunsari, Nepal</p>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=61588713151102" target="_blank">Facebook</a></li>
+                            <li><a href="#" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.youtube.com/@visualcapturestudio" target="_blank">YouTube</a></li>
+                            <li><a href="https://www.tiktok.com/@visual.capture.studio" target="_blank">TikTok</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="number" placeholder="Your Phone Number" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Visual Capture Studio</p>
+            <p>Photography • Videography • Editing • Drone Services</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
